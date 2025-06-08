@@ -1,0 +1,471 @@
+.page-wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: #00040f;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar {
+  width: 100%;
+  color: #ffffffb2;
+  font: poppins;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.bank-logo {
+  object-fit: contain;
+  width: 100px;
+  height: 50px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.payment-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.payment-wrapper_desciption {
+  position: relative;
+  width: 50%;
+}
+.payment_method {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.get {
+  position: absolute;
+  top: 13%;
+  right: 26%;
+}
+
+.get-img {
+  width: 80px;
+  height: 80px;
+}
+
+.discount {
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+.payment_method_description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffffb2;
+}
+
+.robot-hand {
+  width: 50%;
+  position: relative;
+}
+.card-stack {
+  position: relative;
+}
+
+.ball1 {
+  position: absolute;
+  top: -50px;
+}
+
+.ball2 {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+.ball3 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+.card-stack > img {
+  background-color: red;
+}
+
+.card2 {
+  margin-top: -250px;
+}
+
+.card3 {
+  margin-top: -250px;
+}
+
+.robot-hand_image {
+  position: absolute;
+  right: -25%;
+  top: 40%;
+}
+.robot-hand_image > img {
+  height: auto;
+  width: 100%;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 10px;
+  color: white;
+}
+
+.user-active {
+  display: flex;
+  /* font-size: medium; */
+}
+.divider {
+  padding: 0 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.user-active > p {
+  color: #33bbcf;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+
+.company {
+  display: flex;
+  /* font-size: medium; */
+}
+
+.company > p {
+  color: #33bbcf;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+
+.transaction {
+  display: flex;
+  /* padding-left: 100px; */
+  /* color: #33BBCF; */
+}
+
+.transaction > p {
+  color: #33bbcf;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+
+.business-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.business > h2 {
+  color: white;
+}
+.business > p {
+  color: #ffffffb2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  background-color: #5ce1e6;
+  color: #00040f;
+}
+
+.business-star {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.business-secured {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.business-transfer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.business-star > div > h3 {
+  color: white;
+}
+
+.business-star > div > p {
+  color: #ffffffb2;
+}
+
+.business-secured > div > h3 {
+  color: white;
+}
+.business-secured > div > p {
+  color: #ffffffb2;
+}
+.business-transfer > div h3 {
+  color: white;
+}
+.business-transfer > div > p {
+  color: #ffffffb2;
+}
+.business-img {
+  width: 50px;
+  height: 50px;
+}
+
+.billing-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.billing-section-description {
+  position: relative;
+  width: 50%;
+}
+.paypal {
+  margin-left: 30%;
+}
+.paypal-img {
+  width: 227px;
+  height: 216px;
+  position: absolute;
+  bottom: 70%;
+  left: 30%;
+}
+
+.transaction-img {
+  width: 280px;
+  height: 250px;
+}
+
+.btn-payment {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+
+.billing > h2 {
+  color: white;
+}
+
+.billing > p {
+  color: #ffffffb2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.apple-play {
+  display: flex;
+}
+
+.credit-card-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.credit-card-description > h2 {
+  color: white;
+}
+
+.credit-card-description > p {
+  color: #ffffffb2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.credit-card-overflow {
+  position: relative;
+  width: 50%;
+}
+
+.ellipse-big {
+  position: absolute;
+  top: -30%;
+}
+.ellipse-medium {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+}
+
+.ellipse-small {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+}
+
+.pay-method {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+}
+.scan-img {
+  width: 190px;
+  height: 150px;
+}
+
+.scan-cc {
+  position: absolute;
+  left: -15%;
+  top: 10%;
+}
+.online-analysis {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.analysis-img {
+  width: 256px;
+  height: 238px;
+}
+.comment-session-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.comment-people {
+  font-size: 48px;
+  color: white;
+}
+.comment-description {
+  font-size: 18px;
+  color: #ffffffb2;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-card {
+  width: 32%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+.first-card {
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6d6d6d, #11101d);
+}
+.facecard-comment {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.facecard-img {
+  width: 40px;
+  height: 40px;
+}
+
+.quotes-img {
+  width: 30px;
+  height: 30px;
+  padding-bottom: 10px;
+}
+
+.comments-comments {
+  color: white;
+  font-size: 18px;
+}
+.card-title {
+  color: gray;
+}
+
+.utility {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.airbnb-img {
+  width: 800px;
+  height: 60px;
+}
+.service-section {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #6d6d6d, #11101d);
+  border-radius: 10px;
+  padding: 60px;
+  margin-bottom: 200px;
+}
+
+.footer-session {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hoobank-logo {
+  object-fit: contain;
+  width: 200px;
+  height: 50px;
+}
+
+.sub-header {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.sub-content {
+  color: gray;
+}
+
+.border {
+  width: 100%;
+  margin: 20px 0;
+  border-color: #3f3e45;
+}
+.copyright-img{
+  width: 13px;
+  height: 13px;
+}
+.copyright-prop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.social-media-logo {
+  display: flex;
+  gap: 20px;
+}
